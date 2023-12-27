@@ -23,10 +23,13 @@
                     <img src="images/logo/Booki.png">
                 </div>
                 <div class="menu-navigation">
-                    <ul>
-                        <li>Hébergements</li>
-                        <li>Activités</li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li class="page-active"><a href="#">Hébergements</a></li>
+                            <li class="page-pas-active"><a href="#">Activités</a></li>
+                        </ul>
+                    </nav>
+
                 </div>
             </div>
         </header>
@@ -37,24 +40,33 @@
                     <p>En plein centre-ville ou pleine nature</p>
                 </div>
                 <div class="search-bar">
-                    <div><i class="fa-solid fa-location-dot"></i></div><input type="search" placeholder="Marseille, France"></i><button>Rechercher</button>
+                    <div><i class="fa-solid fa-location-dot"></i></div><input type="search" placeholder="Marseille, France"></i><button class="button-search">Rechercher</button>
                 </div>
                 <div class="filtres">
-
+                    <div class="titre-filtre">
+                        <h3>Filtres</h3>
+                    </div>
+                    <div>
+                        <a class="liens-filtres" href="#"><i class="fa-solid fa-money-bill-wave fa-filtres"></i>Économique</a>
+                        <a class="liens-filtres" href="#"><i class="fa-solid fa-person fa-filtres"></i>Famille</a>
+                        <a class="liens-filtres" href="#"><i class="fa-solid fa-heart fa-filtres"></i>Romantique</a>
+                        <a class="liens-filtres" href="#"><i class="fa-solid fa-fire fa-filtres"></i>Nos pépites</a>
+                    </div>
                 </div>
                 <div class="infos-recherche">
                     <div><i class="fa-solid fa-info"></i></div>
-                    <div>Plus de 500 logements sont disponibles dans cette ville</p></div><p>
-                    
+                    <div class="infos-nb-logements">Plus de 500 logements sont disponibles dans cette ville</p></div><p>
                 </div>
             </div>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-
+                    <div>
+                        <h2>Hébergements à Marseille</h2>
+                    </div>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
-                        <h2 class="section-title">Les plus populaires</h2><i class="fa-solid fa-money-bill-wave"></i>
+                        <h2 class="section-title">Les plus populaires</h2></i>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
                     <div class="populaires-cards">
