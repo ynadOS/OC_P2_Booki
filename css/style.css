@@ -268,7 +268,6 @@ a {
 
 .resultats-recherche .card-content {
     padding: 10px;
-    height: ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -377,7 +376,7 @@ footer {
 .menu-footer {
     display: flex;
     flex-direction: column;
-    margin: 15px 0 15px 0;
+    padding: 30px;
 }
 
 .contenu-footer {
@@ -387,11 +386,11 @@ footer {
 }
 
 .menu-footer .title {
-    margin: 0 0 0 15px;
+    margin: 0;
 }
 .contenu-footer ul {
     list-style: none;
-    padding-left: 15px;
+    padding: 0;
     margin: 0;
 }
 
